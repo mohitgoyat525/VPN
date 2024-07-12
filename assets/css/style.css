@@ -1,12 +1,12 @@
 @import url(/assets/css/root.css);
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 * {
   text-decoration: none;
   list-style-type: none;
 }
 /* -----------------------navbar--------------------------- */
 .vpn {
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-20);
   font-weight: 500;
   line-height: 23.7px;
@@ -17,7 +17,7 @@
   gap: 40px;
 }
 .about {
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-16);
   font-weight: 400;
   line-height: 18.96px;
@@ -25,8 +25,8 @@
   color: var(--grey);
   text-decoration: none;
 }
-.about:hover{
-  color:var(--red)
+.about:hover {
+  color: var(--red);
 }
 .sign {
   width: 150px;
@@ -45,22 +45,22 @@
   border-radius: 50px;
 }
 .sign-up:hover {
-    color: var(--white);
-    background: var(--red);
-    transform: scale(1.1) !important;
-    transition: all linear 0.3s;
-    box-shadow: 0 0 29px -2px var(--red);
+  color: var(--white);
+  background: var(--red);
+  transform: scale(1.1) !important;
+  transition: all linear 0.3s;
+  box-shadow: 0 0 29px -2px var(--red);
 }
 .sign:hover {
-   color: var(--white);
-    background: var(--red);
-    transform: scale(1.1) !important;
-    transition: all linear 0.3s;
-    box-shadow: 0 0 29px -2px var(--red);
+  color: var(--white);
+  background: var(--red);
+  transform: scale(1.1) !important;
+  transition: all linear 0.3s;
+  box-shadow: 0 0 29px -2px var(--red);
 }
 /* -------------------------section-one----------------------- */
 .heading {
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-50);
   font-weight: 500;
   line-height: 70px;
@@ -68,7 +68,7 @@
   color: var(--dark-blue);
 }
 .lasvpn {
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-50);
   font-weight: 700;
   line-height: 70px;
@@ -76,7 +76,7 @@
   color: var(--dark-blue);
 }
 .provide {
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-16);
   font-weight: 400;
   line-height: 30px;
@@ -84,7 +84,7 @@
   color: var(--grey);
 }
 .pro-lsvpn {
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-16);
   font-weight: 500;
   line-height: 30px;
@@ -104,12 +104,12 @@
 
   border: none;
 }
-.start:hover{
-     color: var(--white);
-    background: var(--red);
-    transform: scale(1.1) !important;
-    transition: all linear 0.3s;
-    box-shadow: 0 0 29px -2px var(--red);
+.start:hover {
+  color: var(--white);
+  background: var(--red);
+  transform: scale(1.1) !important;
+  transition: all linear 0.3s;
+  box-shadow: 0 0 29px -2px var(--red);
 }
 .pt-120 {
   padding-top: 120px;
@@ -156,7 +156,7 @@
   padding-top: 96px;
 }
 .feature {
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-35);
   font-weight: 500;
   line-height: 50px;
@@ -164,7 +164,7 @@
   color: var(--dark-blue);
 }
 .explore {
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-16);
   font-weight: 400;
   line-height: 30px;
@@ -198,25 +198,25 @@
   color: var(--red);
   border: 2px solid var(--red);
 }
-.box-btn:hover{
-     color: var(--white);
-    background: var(--red);
-    transform: scale(1.1) !important;
-    transition: all linear 0.3s;
-    box-shadow: 0 0 29px -2px var(--red);
+.box-btn:hover {
+  color: var(--white);
+  background: var(--red);
+  transform: scale(1.1) !important;
+  transition: all linear 0.3s;
+  box-shadow: 0 0 29px -2px var(--red);
 }
 .Free-Plan {
   margin-top: 30px;
   margin-bottom: 30px;
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-18);
   font-weight: 500;
   line-height: 30px;
   text-align: center;
-  color:var(--dark-blue);
+  color: var(--dark-blue);
 }
 .offers {
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-14);
   font-weight: 400;
   line-height: 30px;
@@ -224,7 +224,7 @@
   color: var(--grey);
 }
 .plan {
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-35);
   font-weight: 500;
   line-height: 50px;
@@ -232,7 +232,7 @@
   color: var(--dark-blue);
 }
 .package {
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-16);
   font-weight: 400;
   line-height: 30px;
@@ -240,7 +240,7 @@
   color: var(--grey);
 }
 .month {
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-25);
   font-weight: 400;
   line-height: 30px;
@@ -248,7 +248,7 @@
   color: var(--grey);
 }
 .dollar {
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-25);
   font-weight: 500;
   line-height: 30px;
@@ -260,7 +260,7 @@
 }
 .global {
   margin-top: 150px;
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-35);
   font-weight: 500;
   line-height: 50px;
@@ -269,7 +269,7 @@
   margin-bottom: 20px;
 }
 .location {
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-16);
   font-weight: 400;
   line-height: 30px;
@@ -288,7 +288,7 @@
   margin-top: 114px;
 }
 .trust {
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-35);
   font-weight: 500;
   line-height: 50px;
@@ -296,7 +296,7 @@
   margin-top: 60px;
 }
 .stories {
-   font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: var(--fs-16);
   font-weight: 400;
   line-height: 30px;
@@ -508,7 +508,7 @@
 
 .slick-dots {
   bottom: -25px;
- /* width: 100%; */
+  /* width: 100%; */
   padding: 0;
   margin: 0;
   list-style: none;
@@ -548,286 +548,296 @@
 
 .mt-25 {
   margin-top: 25px;
-
 }
 
-.pt-30{
+.pt-30 {
   padding-top: 30px;
 }
 .heading-box {
-    padding: 58px 70px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-radius: 10px;
-    background-color: var(--white);
+  padding: 58px 70px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  background-color: var(--white);
 }
 
 .gradient {
-    background: linear-gradient(360deg, rgba(248, 248, 248, 1) 50%, rgba(255, 255, 255, 1) 50%);
+  background: linear-gradient(
+    360deg,
+    rgba(248, 248, 248, 1) 50%,
+    rgba(255, 255, 255, 1) 50%
+  );
 }
-
-
 
 .mt-57 {
-    margin-top: 57px;
+  margin-top: 57px;
 }
 
-
 .subscribe {
-    font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-35);
-    font-weight: 500;
-    line-height: 45px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: var(--dark-blue);
-    max-width: 371px;
+  font-family: "Rubik", sans-serif;
+  font-size: var(--fs-35);
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark-blue);
+  max-width: 371px;
 }
 
 .subscribe-txt {
-    font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: var(--grey);
+  font-family: "Rubik", sans-serif;
+  font-size: var(--fs-16);
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--grey);
 }
 
 .bg-drk-wht {
-    background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .mt-80 {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .w-33 {
-    width: 33px;
+  width: 33px;
 }
 
 .h-33 {
-    height: 33px;
+  height: 33px;
 }
 
 .subscribe-btn {
-    padding: 17px 65px;
-    border-radius: 10px;
-    color: var(--white);
-    background: var(--red);
-    font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 700;
-    line-height: 25px;
-    border: none;
+  padding: 17px 65px;
+  border-radius: 10px;
+  color: var(--white);
+  background: var(--red);
+  font-family: "Rubik", sans-serif;
+  font-size: var(--fs-16);
+  font-weight: 700;
+  line-height: 25px;
+  border: none;
 }
 
 .subscribe-btn:hover {
-    color: var(--white);
-    background: var(--red);
-    transform: scale(1.1) !important;
-    transition: all linear 0.3s;
-    box-shadow: 0 0 29px -2px var(--red);
+  color: var(--white);
+  background: var(--red);
+  transform: scale(1.1) !important;
+  transition: all linear 0.3s;
+  box-shadow: 0 0 29px -2px var(--red);
 }
-.box-2{
+.box-2 {
   top: 52%;
 }
-.now{
+.now {
   font-family: Rubik;
-font-size: 35px;
-font-weight: 500;
-line-height: 45px;
-text-align: left;
-color: var(--dark-blue);
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: left;
+  color: var(--dark-blue);
 }
-.mt-180{
+.mt-180 {
   margin-top: 180px;
 }
 #bg-red {
-    font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 400;
-    line-height: 18.96px;
-    text-align: left;
-    color: var(--grey);
+  font-family: "Rubik", sans-serif;
+  font-size: var(--fs-16);
+  font-weight: 400;
+  line-height: 18.96px;
+  text-align: left;
+  color: var(--grey);
 }
 
 #bg-red:hover {
-    color: var(--red);
+  color: var(--red);
 }
 
 .subscribe {
-    font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-35);
-    font-weight: 500;
-    line-height: 45px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: var(--dark-blue);
-    max-width: 371px;
+  font-family: "Rubik", sans-serif;
+  font-size: var(--fs-35);
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark-blue);
+  max-width: 371px;
 }
 
 .subscribe-txt {
-    font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: var(--grey);
+  font-family: "Rubik", sans-serif;
+  font-size: var(--fs-16);
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--grey);
 }
 
 .bg-drk-wht {
-    background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .mt-80 {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .w-33 {
-    width: 33px;
+  width: 33px;
 }
 
 .h-33 {
-    height: 33px;
+  height: 33px;
 }
 
 .subscribe-btn {
-    padding: 17px 65px;
-    border-radius: 10px;
-    color: var(--white);
-    background: var(--red);
-    font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 700;
-    line-height: 25px;
-    border: none;
+  padding: 17px 65px;
+  border-radius: 10px;
+  color: var(--white);
+  background: var(--red);
+  font-family: "Rubik", sans-serif;
+  font-size: var(--fs-16);
+  font-weight: 700;
+  line-height: 25px;
+  border: none;
 }
 
 .subscribe-btn:hover {
-    color: var(--white);
-    background: var(--red);
-    transform: scale(1.1) !important;
-    transition: all linear 0.3s;
-    box-shadow: 0 0 29px -2px var(--red);
+  color: var(--white);
+  background: var(--red);
+  transform: scale(1.1) !important;
+  transition: all linear 0.3s;
+  box-shadow: 0 0 29px -2px var(--red);
 }
 
 .backgroundcolor-footer {
-    background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .last-laslesvpn {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 500;
-    line-height: 23.7px;
-    text-align: left;
+  font-family: "Rubik", sans-serif;
+  font-size: var(--fs-16);
+  font-weight: 500;
+  line-height: 23.7px;
+  text-align: left;
 }
 
 .last-laslesvpn span {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 700;
-    line-height: 27.3px;
-    text-align: left;
+  font-family: "Rubik", sans-serif;
+  font-size: var(--fs-16);
+  font-weight: 700;
+  line-height: 27.3px;
+  text-align: left;
 }
 
 .last-paragraph {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    max-width: 340px;
-    color: var(--grey);
+  font-family: "Rubik", sans-serif;
+  font-size: var(--fs-16);
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  max-width: 340px;
+  color: var(--grey);
 }
 
 .last-paragraph span {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 500;
-    line-height: 30px;
-    text-align: left
+  font-family: "Rubik", sans-serif;
+  font-size: var(--fs-16);
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
 }
 
 .lastbottom-laslesvpn {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 400;
-    line-height: 30px;
-    color: #AFB5C0;
+  font-family: "Rubik", sans-serif;
+  font-size: var(--fs-16);
+  font-weight: 400;
+  line-height: 30px;
+  color: #afb5c0;
 }
 
 .lastbottom-laslesvpn span {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 500;
-    line-height: 30px;
-    color: #AFB5C0;
+  font-family: "Rubik", sans-serif;
+  font-size: var(--fs-16);
+  font-weight: 500;
+  line-height: 30px;
+  color: #afb5c0;
 }
 
 .product {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-18);
-    font-weight: 500;
-    line-height: 30px;
-    text-align: left;
-    color: var(--dark-blue);
+  font-family: "Rubik", sans-serif;
+  font-size: var(--fs-18);
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: var(--dark-blue);
 }
 
 .links-footer {
-    color: var(--grey);
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    text-decoration: none;
+  color: var(--grey);
+  font-family: "Rubik", sans-serif;
+  font-size: var(--fs-16);
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-decoration: none;
 }
 
 .links-footer:hover {
-    color: red;
+  color: red;
 }
 
-.pt-57{
+.pt-57 {
   padding-top: 57px;
 }
 
 .svg-circle {
-    /* display: inline-block; */
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background-color: var(--light-white);
-    box-shadow: 0px 13px 18px 0px #11132314;
+  /* display: inline-block; */
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: var(--light-white);
+  box-shadow: 0px 13px 18px 0px #11132314;
 }
 
 .trnsition:hover {
-    transform: rotateY(360deg);
-
+  transform: rotateY(360deg);
 }
-.gap-10{
+.gap-10 {
   gap: 10px;
 }
 
 .trnsition {
-    transition: 0.5s;
+  transition: 0.5s;
 }
-.mt-20{
+.mt-20 {
   margin-top: 20px;
 }
-.pb-40{
+.pb-40 {
   padding-bottom: 40px;
 }
-.pt-20{
+.pt-20 {
   padding-top: 20px;
-  
 }
-.pb-60{
+.pb-60 {
   padding-bottom: 60px;
 }
-.pt-180{
+.pt-180 {
   padding-top: 180px;
+}
+.border-right::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: var(--grey);
+  right: 0;
+  top: -10%;
+}
+.cursor{
+  cursor: pointer;
 }
 /* -----------------------------responisve------------------------ */
 @media (max-width: 992px) {
@@ -841,13 +851,14 @@ color: var(--dark-blue);
     top: 0;
     bottom: 0;
     right: -100%;
+    transition: all 300ms linear;
     background: var(--dark-blue);
   }
   .show-nav {
     right: 0 !important;
   }
-  .line-1{
-    width:35px;
+  .line-1 {
+    width: 35px;
     display: flex;
     height: 5px;
     background-color: var(--grey);
@@ -855,141 +866,137 @@ color: var(--dark-blue);
     border-radius: 5px;
     transition: all 300ms linear;
   }
+  .lg-p-0{
+    padding: 0; 
+  }
 }
 
-@media (min-width:992px) {
-    .border-right {
-        border-right: 2px solid var(--grey)z;
-    }
+@media (min-width: 992px) {
+  .mt-15 {
+    margin-top: 15px;
+  }
 
-    .mt-15 {
-        margin-top: 15px;
-    }
+  .nav-icon {
+    display: none;
+  }
 
-    .nav-icon {
-        display: none;
-    }
+  .lg-view {
+    display: flex;
+  }
 
-    .lg-view {
-        display: flex;
-    }
+  .py-15 {
+    padding-top: 80px;
+    padding-bottom: 15px;
+  }
 
-    .py-15 {
-        padding-top: 80px;
-        padding-bottom: 15px;
-    }
-
-    .ml-20{
-        margin-left: 20px;
-    }
+  .ml-20 {
+    margin-left: 20px;
+  }
 }
 
-@media (max-width:768px) {
-    .slick-dots {
-        display: none !important;
-    }
+@media (max-width: 768px) {
+  .slick-dots {
+    display: none !important;
+  }
 
-    .md-justify-content-center {
-        justify-content: center !important;
-    }
+  .md-justify-content-center {
+    justify-content: center !important;
+  }
 
-    .align-sm-center {
-        align-items: center;
-    }
+  .align-sm-center {
+    align-items: center;
+  }
 
-    .pt-75 {
-        padding-top: 75px;
-    }
+  .pt-75 {
+    padding-top: 75px;
+  }
 
-    .fs-29 {
-        font-size: var(--fs-29);
-    }
+  .fs-29 {
+    font-size: var(--fs-29);
+  }
 
-    .fs-27 {
-        font-size: 27px;
-    }
+  .fs-27 {
+    font-size: 27px;
+  }
 
-    .pt-10 {
-        padding-top: 10px;
-    }
+  .pt-10 {
+    padding-top: 10px;
+  }
+  .border-right::after {
+    display: none;
+  }
 }
 
-@media (max-width:576px) {
-    .fs-36 {
-        font-size: var(--fs-36);
-    }
+@media (max-width: 576px) {
+  .fs-36 {
+    font-size: var(--fs-36);
+  }
 
-    .line-height {
-        line-height: 50px;
-    }
+  .line-height {
+    line-height: 50px;
+  }
 
-    .gap4 {
-        gap: 4px !important;
-    }
+  .gap4 {
+    gap: 4px !important;
+  }
 
-    .fs-21 {
-        font-size: 21px;
-    }
+  .fs-21 {
+    font-size: 21px;
+  }
 
-    .lg-38 {
-        line-height: 38px;
-    }
+  .lg-38 {
+    line-height: 38px;
+  }
 
-    .subscribe-btn {
-        padding: 10px 26px !important;
-        border-radius: 10px;
-        color: var(--white);
-        background: var(--red);
-        font-family: 'Rubik', sans-serif;
-        font-size: var(--fs-11) !important;
-        font-weight: 700;
-        line-height: 25px;
-        border: none;
-        box-shadow: 0 8px 30px rgb(0, 0, 0, 0.12);
-    }
+  .subscribe-btn {
+    padding: 10px 26px !important;
+    border-radius: 10px;
+    color: var(--white);
+    background: var(--red);
+    font-family: "Rubik", sans-serif;
+    font-size: var(--fs-11) !important;
+    font-weight: 700;
+    line-height: 25px;
+    border: none;
+    box-shadow: 0 8px 30px rgb(0, 0, 0, 0.12);
+  }
 
-    .sect2-head {
-        font-size: var(--fs-28) !important;
+  .sect2-head {
+    font-size: var(--fs-28) !important;
+  }
 
-    }
+  .sect1-head {
+    font-size: var(--fs-28) !important;
+  }
 
-    .sect1-head {
-        font-size: var(--fs-28) !important;
-    }
+  .vpn2 {
+    font-size: var(--fs-29) !important;
+  }
 
-    .vpn2 {
-        font-size: var(--fs-29) !important;
-    }
+  .subscribe {
+    font-size: var(--fs-15) !important;
+  }
 
-    .subscribe {
-        font-size: var(--fs-15) !important;
-    }
+  .slick-dots {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: absolute !important;
+    left: 2% !important;
+  }
 
+  .trusted-by {
+    font-family: "Rubik", sans-serif;
+    font-size: var(--fs-25) !important;
+    font-weight: 500;
+    line-height: 50px;
+  }
 
-
-    .slick-dots {
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        position: absolute !important;
-        left: 2% !important;
-
-    }
-
-    .trusted-by {
-        font-family: "Rubik", sans-serif;
-        font-size: var(--fs-25) !important;
-        font-weight: 500;
-        line-height: 50px;
-    }
-
-    .happy-customer {
-        font-family: "Rubik", sans-serif;
-        font-size: var(--fs-28) !important;
-        font-weight: 500;
-        line-height: 50px;
-        text-align: center;
-    }
-
-
+  .happy-customer {
+    font-family: "Rubik", sans-serif;
+    font-size: var(--fs-28) !important;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+  }
 }
