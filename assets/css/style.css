@@ -869,6 +869,9 @@
   .lg-p-0{
     padding: 0; 
   }
+  .sign{
+    background: var(--grey);
+  }
 }
 
 @media (min-width: 992px) {
