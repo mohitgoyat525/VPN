@@ -872,6 +872,9 @@
   .sign{
     background: var(--grey);
   }
+  .pl_36 {
+  padding-left: 6px;
+}
 }
 
 @media (min-width: 992px) {
