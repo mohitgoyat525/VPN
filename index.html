@@ -1,632 +1,635 @@
-<!DOCTYPE html>
-<html lang="en">
+  <!DOCTYPE html>
+  <html lang="en">
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lasles VPN</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
-    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
-    integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <link rel="stylesheet" href="./assets/css/root.css">
-  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
-</head>
-<body>
-  <!-- ---------------nav-bar-------------------- -->
-  <header class="overflow-hidden">
-    <div class="container">
-      <nav class="d-flex align-items-center justify-content-between">
-        <div class="logo d-flex gap-2 cursor align-items-center">
-          <img src="/assets/images/logo.png" alt="logo">
-          <p class="vpn p-0 m-0">Lasles<b>VPN</b></p>
-        </div>
-        <ul id="nav-menu" class="menu-bar mb-0 lg-p-0 d-flex align-items-center justify-content-center gap-40">
-          <li><a href="/" class="about pt-3">About</a></li>
-          <li><a href="/" class="about pt-3">Features</a></li>
-          <li><a href="/" class="about pt-3">Pricing</a></li>
-          <li><a href="/" class="about pt-3">Testimonials</a></li>
-          <li><a href="/" class="about pt-3">Help</a></li>
-          <li><button class="sign">Sign In</button></li>
-          <li><button class="sign-up">Sign Up</button></li>
-        </ul>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lasles VPN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <!-- ---------------nav-bar-------------------- -->
+    <header class="overflow-hidden">
+      <div class="container">
+        <nav class="d-flex align-items-center justify-content-between">
+          <div class="logo d-flex gap-2 cursor align-items-center">
+            <img src="/assets/images/logo.png" alt="logo">
+            <p class="vpn p-0 m-0">Lasles<b>VPN</b></p>
+          </div>
+          <ul id="nav-menu" class="menu-bar mb-0 lg-p-0 d-flex align-items-center justify-content-center gap-40">
+            <li><a href="/" class="about pt-3">About</a></li>
+            <li><a href="/" class="about pt-3">Features</a></li>
+            <li><a href="/" class="about pt-3">Pricing</a></li>
+            <li><a href="/" class="about pt-3">Testimonials</a></li>
+            <li><a href="/" class="about pt-3">Help</a></li>
+            <li><button class="sign">Sign In</button></li>
+            <li><button class="sign-up">Sign Up</button></li>
+          </ul>
 
-        <div onclick="navbtn()" class="d-lg-none z-3">
-          <span class="line-1"></span>
-          <span class="line-1"></span>
-          <span class="line-1"></span>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <!-- -------------------------------section-one--------------------------------- -->
-  <section class="bg-white pt-120">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-12">
-          <h2 class="heading">
-            Want anything to be easy with
-            <sapn class="vpn2 lasvpn">LaslesVPN.</sapn>
-          </h2>
-          <p class="provide sect1-head">
-            Provide a network for all your needs with ease and fun using
-            <span class="pro-lsvpn sect1-head">LaslesVPN</span> discover interesting
-            features from us.
-          </p>
-          <button class="start mt-4">Get started</button>
-        </div>
-        <div class="col-lg-6 col-12">
-          <img src="./assets/images/Illustration 1.png" alt="devloper" class="w-100" />
-        </div>
+          <div onclick="navbtn()" class="d-lg-none z-3">
+            <span class="line-1"></span>
+            <span class="line-1"></span>
+            <span class="line-1"></span>
+          </div>
+        </nav>
       </div>
-      <div class="box_1 w-100 h-100">
-        <div class="row firstbox"> 
-          <div class="col-12  col-md-4 col-sm-6 mt-4 position-relative border-right">
-            <div class=" d-flex justify-content-center">
-              <svg width="55" height="56" viewBox="0 0 55 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M27.4996 26.3484C28.4544 26.3484 29.3701 25.9692 30.0452 25.294C30.7203 24.6189 31.0996 23.7032 31.0996 22.7484C31.0996 21.7937 30.7203 20.878 30.0452 20.2029C29.3701 19.5277 28.4544 19.1484 27.4996 19.1484C26.5448 19.1484 25.6292 19.5277 24.954 20.2029C24.2789 20.878 23.8996 21.7937 23.8996 22.7484C23.8996 23.7032 24.2789 24.6189 24.954 25.294C25.6292 25.9692 26.5448 26.3484 27.4996 26.3484ZM22.3983 37.1484C20.5765 37.1484 19.0419 35.617 19.739 33.9339C20.1612 32.9148 20.7799 31.9888 21.5599 31.2087C22.3399 30.4287 23.2659 29.81 24.2851 29.3878C25.3042 28.9657 26.3965 28.7484 27.4996 28.7484C28.6027 28.7484 29.695 28.9657 30.7142 29.3878C31.7333 29.81 32.6593 30.4287 33.4393 31.2087C34.2193 31.9888 34.8381 32.9148 35.2602 33.9339C35.9574 35.617 34.4228 37.1484 32.601 37.1484H22.3983Z"
-                  fill="#F53838" />
-              </svg>
-              <div class="pl_36">
-                <h2 class="mb-0 number_90 black fs_lg fw_2xl">90+</h2>
-                <h2 class="mb-0 User_s white_3 fs_md fw_md">Users</h2>
-              </div>
+    </header>
+    <!-- -------------------------------section-one--------------------------------- -->
+    <section class="bg-white pt-120">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <div class="heading">
+              Want anything to be easy with
+              <sapn class="vpn2 lasvpn ">LaslesVPN.</sapn>
             </div>
+            <p class="provide sect1-head">
+              Provide a network for all your needs with ease and fun using
+              <span class="pro-lsvpn sect1-head">LaslesVPN</span> discover interesting
+              features from us.
+            </p>
+            <button class="start mt-4">Get started</button>
           </div>
-          <div class="col-12  col-md-4 col-sm-6  mt-4 ps-4 position-relative border-right">
-            <div class=" d-flex justify-content-center">
-              <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="0.5" y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC" />
-                <path
-                  d="M35 24.5488C35 23.6296 34.8189 22.7193 34.4672 21.87C34.1154 21.0208 33.5998 20.2491 32.9497 19.5991C32.2997 18.9491 31.5281 18.4335 30.6788 18.0817C29.8295 17.7299 28.9193 17.5488 28 17.5488C27.0807 17.5488 26.1705 17.7299 25.3212 18.0817C24.4719 18.4335 23.7003 18.9491 23.0503 19.5991C22.4002 20.2491 21.8846 21.0208 21.5328 21.87C21.1811 22.7193 21 23.6296 21 24.5488C21 25.9358 21.41 27.2258 22.105 28.3138H22.097C24.457 32.0088 28 37.5488 28 37.5488L33.903 28.3138H33.896C34.6164 27.1902 34.9995 25.8836 35 24.5488ZM28 27.5488C27.2044 27.5488 26.4413 27.2328 25.8787 26.6701C25.3161 26.1075 25 25.3445 25 24.5488C25 23.7532 25.3161 22.9901 25.8787 22.4275C26.4413 21.8649 27.2044 21.5488 28 21.5488C28.7956 21.5488 29.5587 21.8649 30.1213 22.4275C30.6839 22.9901 31 23.7532 31 24.5488C31 25.3445 30.6839 26.1075 30.1213 26.6701C29.5587 27.2328 28.7956 27.5488 28 27.5488Z"
-                  fill="#F53838" />
-              </svg>
-              <div class="pl_36">
-                <h2 class="mb-0 number_90 black fs_lg fw_2xl">30+</h2>
-                <h2 class="mb-0 User_s white_3 fs_md fw_md">Locations</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-sm-6  mt-4 mb-4">
-            <div class="d-flex justify-content-center">
-              <svg width="55" height="56" viewBox="0 0 55 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC" />
-                <path
-                  d="M35.5 18.5488H19.5C18.9696 18.5488 18.4609 18.7595 18.0858 19.1346C17.7107 19.5097 17.5 20.0184 17.5 20.5488V24.5488C17.5 25.0793 17.7107 25.588 18.0858 25.963C18.4609 26.3381 18.9696 26.5488 19.5 26.5488H35.5C36.0304 26.5488 36.5391 26.3381 36.9142 25.963C37.2893 25.588 37.5 25.0793 37.5 24.5488V20.5488C37.5 20.0184 37.2893 19.5097 36.9142 19.1346C36.5391 18.7595 36.0304 18.5488 35.5 18.5488ZM30.5 22.5488C30.5 23.1011 30.0523 23.5488 29.5 23.5488C28.9477 23.5488 28.5 23.1011 28.5 22.5488C28.5 21.9965 28.9477 21.5488 29.5 21.5488C30.0523 21.5488 30.5 21.9965 30.5 22.5488ZM34.5 22.5488C34.5 23.1011 34.0523 23.5488 33.5 23.5488C32.9477 23.5488 32.5 23.1011 32.5 22.5488C32.5 21.9965 32.9477 21.5488 33.5 21.5488C34.0523 21.5488 34.5 21.9965 34.5 22.5488ZM35.5 28.5488H19.5C18.9696 28.5488 18.4609 28.7595 18.0858 29.1346C17.7107 29.5097 17.5 30.0184 17.5 30.5488V34.5488C17.5 35.0793 17.7107 35.588 18.0858 35.963C18.4609 36.3381 18.9696 36.5488 19.5 36.5488H35.5C36.0304 36.5488 36.5391 36.3381 36.9142 35.963C37.2893 35.588 37.5 35.0793 37.5 34.5488V30.5488C37.5 30.0184 37.2893 29.5097 36.9142 29.1346C36.5391 28.7595 36.0304 28.5488 35.5 28.5488ZM30.5 32.5488C30.5 33.1011 30.0523 33.5488 29.5 33.5488C28.9477 33.5488 28.5 33.1011 28.5 32.5488C28.5 31.9965 28.9477 31.5488 29.5 31.5488C30.0523 31.5488 30.5 31.9965 30.5 32.5488ZM34.5 32.5488C34.5 33.1011 34.0523 33.5488 33.5 33.5488C32.9477 33.5488 32.5 33.1011 32.5 32.5488C32.5 31.9965 32.9477 31.5488 33.5 31.5488C34.0523 31.5488 34.5 31.9965 34.5 32.5488Z"
-                  fill="#F53838" />
-              </svg>
-              <div class="pl_36">
-                <h2 class="mb-0 number_90 black fs_lg fw_2xl">50+</h2>
-                <h2 class="mb-0 User_s white_3 fs_md fw_md">Servers</h2>
-              </div>
-            </div>
+          <div class="col-lg-6 col-12">
+            <img src="./assets/images/Illustration 1.png" alt="devloper" class="w-100 mt-45" />
           </div>
         </div>
-      </div>
-      <div class="row pb-143">
-        <div class="col-lg-6  col-12 pt-90">
-          <img src="/assets/images/devloper-2.png" alt="picture" class="w-100">
-        </div>
-        <div class="col-lg-6 col-12 pt-96">
-          <h3 class="feature sect2 pb-4">We Provide Many Features You Can Use</h3>
-          <p class="explore sect2 pb-3">You can explore the features that we provide with fun and have their own
-            functions
-            each
-            feature.</p>
-          <div>
-            <ul>
-              <li class="text-decoration-none pt-2 explore"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M12.1211 2.54883C6.60709 2.54883 2.12109 7.03483 2.12109 12.5488C2.12109 18.0628 6.60709 22.5488 12.1211 22.5488C17.6351 22.5488 22.1211 18.0628 22.1211 12.5488C22.1211 7.03483 17.6351 2.54883 12.1211 2.54883ZM10.1221 16.9618L7.11655 13.9628C6.72579 13.5728 6.725 12.94 7.11478 12.5491C7.50481 12.158 8.13811 12.1573 8.52902 12.5475L10.1201 14.1358L14.7071 9.54883C15.0976 9.15836 15.7306 9.15836 16.1211 9.54883C16.5116 9.93929 16.5116 10.5724 16.1211 10.9628L10.1221 16.9618Z"
-                    fill="#2FAB73" />
-                </svg>
-                Powerfull online protection.
-              </li>
-              <li class="text-decoration-none pt-2 explore"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M12.1211 2.54883C6.60709 2.54883 2.12109 7.03483 2.12109 12.5488C2.12109 18.0628 6.60709 22.5488 12.1211 22.5488C17.6351 22.5488 22.1211 18.0628 22.1211 12.5488C22.1211 7.03483 17.6351 2.54883 12.1211 2.54883ZM10.1221 16.9618L7.11655 13.9628C6.72579 13.5728 6.725 12.94 7.11478 12.5491C7.50481 12.158 8.13811 12.1573 8.52902 12.5475L10.1201 14.1358L14.7071 9.54883C15.0976 9.15836 15.7306 9.15836 16.1211 9.54883C16.5116 9.93929 16.5116 10.5724 16.1211 10.9628L10.1221 16.9618Z"
-                    fill="#2FAB73" />
-                </svg>
-                Internet without borders.
-              </li>
-              <li class="text-decoration-none pt-2 explore"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M12.1211 2.54883C6.60709 2.54883 2.12109 7.03483 2.12109 12.5488C2.12109 18.0628 6.60709 22.5488 12.1211 22.5488C17.6351 22.5488 22.1211 18.0628 22.1211 12.5488C22.1211 7.03483 17.6351 2.54883 12.1211 2.54883ZM10.1221 16.9618L7.11655 13.9628C6.72579 13.5728 6.725 12.94 7.11478 12.5491C7.50481 12.158 8.13811 12.1573 8.52902 12.5475L10.1201 14.1358L14.7071 9.54883C15.0976 9.15836 15.7306 9.15836 16.1211 9.54883C16.5116 9.93929 16.5116 10.5724 16.1211 10.9628L10.1221 16.9618Z"
-                    fill="#2FAB73" />
-                </svg>
-                Supercharged VPN
-              </li>
-              <li class="text-decoration-none pt-2 explore"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M12.1211 2.54883C6.60709 2.54883 2.12109 7.03483 2.12109 12.5488C2.12109 18.0628 6.60709 22.5488 12.1211 22.5488C17.6351 22.5488 22.1211 18.0628 22.1211 12.5488C22.1211 7.03483 17.6351 2.54883 12.1211 2.54883ZM10.1221 16.9618L7.11655 13.9628C6.72579 13.5728 6.725 12.94 7.11478 12.5491C7.50481 12.158 8.13811 12.1573 8.52902 12.5475L10.1201 14.1358L14.7071 9.54883C15.0976 9.15836 15.7306 9.15836 16.1211 9.54883C16.5116 9.93929 16.5116 10.5724 16.1211 10.9628L10.1221 16.9618Z"
-                    fill="#2FAB73" />
-                </svg>
-                No specific time limits.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  </section>
-  <!-- ------------------------------section-two-------------------------------------- -->
-  <section class="sec-two">
-    <div class="container">
-      <h3 class="text-center plan pt-3">Choose Your Plan</h3>
-      <p class="text-center package pt-3">Let's choose the package that is best for you and explore it happily
-        and<br>cheerfully.</p>
-      <div class="row">
-        <div class="col-12 col-lg-4 col-md-6 mt-4">
-          <div class="big-box  flex-column d-flex align-items-center justify-content-center">
-            <img src="./assets/images/Free.png" alt="plans" class="boxx">
-            <h4 class="Free-Plan">Free Plan</h4>
-            <ul>
-              <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
-                    fill="#2FAB73" />
-                </svg>
-                Unlimited Bandwitch
-              </li>
-              <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
-                    fill="#2FAB73" />
-                </svg>
-                Encrypted Connection
-              </li>
-              <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
-                    fill="#2FAB73" />
-                </svg>
-                No Traffic Logs
-              </li>
-              <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
-                    fill="#2FAB73" />
-                </svg>
-                Works on All Devices
-              </li>
-            </ul>
-            <p class="free mt-130">Free</p>
-            <button class="box-btn">Select</button>
-          </div>
-        </div>
-        <!---------------------box-2 ----------------------->
-        <div class="col-12 col-lg-4 col-md-6 mt-4">
-          <div class="big-box  flex-column d-flex align-items-center justify-content-center">
-            <img src="./assets/images/Free.png" alt="plans" class="boxx">
-            <h4 class="Free-Plan">Standard Plan</h4>
-            <ul>
-              <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
-                    fill="#2FAB73" />
-                </svg>
-                Unlimited Bandwitch
-              </li>
-              <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
-                    fill="#2FAB73" />
-                </svg>
-                Encrypted Connection
-              </li>
-              <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
-                    fill="#2FAB73" />
-                </svg>
-                Yes Traffic Logs
-              </li>
-              <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
-                    fill="#2FAB73" />
-                </svg>
-                Works on All Devices
-              </li>
-
-              <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
-                    fill="#2FAB73" />
-                </svg>
-                Connect Anyware
-              </li>
-            </ul>
-            <p class="dollar mt-90 mt-130">$9 <span class="month">/ mo</span></p>
-            <button class="box-btn">Select</button>
-          </div>
-        </div>
-        <!---------------------------box-3-------------------------------- -->
-        <div class="col-12 col-lg-4 col-md-6 mt-4">
-          <div class="big-box  flex-column d-flex align-items-center justify-content-center">
-            <img src="./assets/images/Free.png" alt="plans" class="boxx">
-            <h4 class="Free-Plan">Premium Plan</h4>
-            <ul>
-              <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
-                    fill="#2FAB73" />
-                </svg>
-                Unlimited Bandwitch
-              </li>
-              <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
-                    fill="#2FAB73" />
-                </svg>
-                Encrypted Connection
-              </li>
-              <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
-                    fill="#2FAB73" />
-                </svg>
-                No Traffic Logs
-              </li>
-              <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
-                    fill="#2FAB73" />
-                </svg>
-                Works on All Devices
-              </li>
-              <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
-                    fill="#2FAB73" />
-                </svg>
-                Get New Features
-              </li>
-            </ul>
-            <p class="dollar mt-90 mt-130">$12 <span class="month">/ mo</span></p>
-            <button class="box-btn">Select</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- -----------------------------sec-3-------------------------- -->
-  <section class="sec-3">
-    <div class="container">
-      <h3 class="text-center   global">Huge Global Network of Fast VPN</h3>
-      <p class="location">See <sapn class="las-vpn">LaslesVPN</sapn>everywhere to make it easier for you when you move
-        locations.</p>
-      <img src="./assets/images/world-map.png" alt="world-map" class="w-100 map">
-      <div class="row">
-        <div class="social-media gap-5 d-flex mt-114 overflow-auto align-items-center">
-          <a  href="https://www.netflix.com/in/" target="_blank"> <img src="./assets/images/netflix.svg"
-              alt="netflix"></a>
-          <a href="https://www.reddit.com/" target="_blank"><img src="./assets/images/reddit.png"
-              alt="reddit"></a>
-          <a  href="https://www.amazon.in/" target="_blank"><img src="./assets/images/amzone.png"
-              alt="amzone"></a>
-          <a  href="https://discord.com/" target="_blank"><img src="./assets/images/discord.png"
-              alt="discord" </a>
-            <a  href="https://accounts.spotify.com/en/login" target="_blank"><img
-                src="./assets/images/spotify.png" alt="spotify">
-            </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- -----------------------section-4------------------------------------- -->
-  <section class="bg pb-10 overflow-hidden position-relative">
-    <div class="container" id="testimonials">
-      <div class="d-flex justify-content-center">
-        <div class="pt-57">
-          <h2 class="trusted-by mb-0 text-center">Trusted by Thousands of</h2>
-          <h2 class="happy-customer mb-0 text-center ">Happy Customer</h2>
-          <p class="these-are mb-0 text-center pt-20">These are the stories of our customers who have joined us with
-            great</p>
-          <p class="pleasure-when d-flex justify-content-center mb-0 text-center pb-60">pleasure when using this crazy
-            feature.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="mt-60">
-      <div class="container" id="features">
-        <div class="sliderbox z-5  align-items-center">
-          <div class="slider-box mx-2 ">
-            <div class="d-flex align-items-center justify-content-between">
-              <div class="d-flex align-items-center">
-                <div class="slider-image">
-                  <img src="./assets/images/profile-img.png" alt="image">
-                </div>
-                <div class="para-1 pl-20">
-                  <h2 class="slick-box-heading mb-0">Viezh Robert</h2>
-                  <p class="slick-box-address mb-0">Warsaw, Poland</p>
-                </div>
-              </div>
-              <div class="para-2 d-flex align-items-center  gap-10">
-                <p class="svg-no mb-0">4.5</p>
-                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M14.189 6.16583L10.2218 5.58926L8.44834 1.99395C8.39991 1.89551 8.32022 1.81583 8.22178 1.76739C7.97491 1.64551 7.67491 1.74708 7.55147 1.99395L5.77803 5.58926L1.81084 6.16583C1.70147 6.18145 1.60147 6.23301 1.52491 6.31114C1.43235 6.40627 1.38134 6.53426 1.3831 6.66699C1.38486 6.79971 1.43924 6.9263 1.53428 7.01895L4.40459 9.81739L3.72647 13.769C3.71057 13.8609 3.72074 13.9554 3.75583 14.0418C3.79093 14.1283 3.84953 14.2032 3.92501 14.258C4.00049 14.3128 4.08982 14.3454 4.18288 14.352C4.27593 14.3586 4.36898 14.3391 4.45147 14.2955L7.99991 12.4299L11.5483 14.2955C11.6452 14.3471 11.7577 14.3643 11.8655 14.3455C12.1374 14.2986 12.3202 14.0408 12.2733 13.769L11.5952 9.81739L14.4655 7.01895C14.5437 6.94239 14.5952 6.84239 14.6108 6.73301C14.653 6.45958 14.4624 6.20645 14.189 6.16583Z"
-                    fill="#FEA250" />
-                </svg>
-              </div>
-            </div>
-            <p class="slick-para-3 mb-0">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no
-               problems. LaslesVPN always the best”.
-              </p>
-          </div>
-          <div class="slider-box mx-2 ">
-            <div class="d-flex align-items-center justify-content-between">
-              <div class="d-flex align-items-center">
-                <div class="slider-image">
-                  <img src="./assets/images/profile-2.png" alt="image">
-                </div>
-                <div class="para-1 pl-20">
-                  <h2 class="slick-box-heading mb-0">Yessica Christy</h2>
-                  <p class="slick-box-address mb-0">Shanxi, China</p>
-                </div>
-              </div>
-              <div class="para-2 d-flex align-items-center gap-10">
-                <p class="svg-no mb-0">4.5</p>
-                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M14.189 6.16583L10.2218 5.58926L8.44834 1.99395C8.39991 1.89551 8.32022 1.81583 8.22178 1.76739C7.97491 1.64551 7.67491 1.74708 7.55147 1.99395L5.77803 5.58926L1.81084 6.16583C1.70147 6.18145 1.60147 6.23301 1.52491 6.31114C1.43235 6.40627 1.38134 6.53426 1.3831 6.66699C1.38486 6.79971 1.43924 6.9263 1.53428 7.01895L4.40459 9.81739L3.72647 13.769C3.71057 13.8609 3.72074 13.9554 3.75583 14.0418C3.79093 14.1283 3.84953 14.2032 3.92501 14.258C4.00049 14.3128 4.08982 14.3454 4.18288 14.352C4.27593 14.3586 4.36898 14.3391 4.45147 14.2955L7.99991 12.4299L11.5483 14.2955C11.6452 14.3471 11.7577 14.3643 11.8655 14.3455C12.1374 14.2986 12.3202 14.0408 12.2733 13.769L11.5952 9.81739L14.4655 7.01895C14.5437 6.94239 14.5952 6.84239 14.6108 6.73301C14.653 6.45958 14.4624 6.20645 14.189 6.16583Z"
-                    fill="#FEA250" />
-                </svg>
-              </div>
-            </div>
-            <p class="slick-para-3 mb-0">“I like it because I like to travel far and still can connect with
-              high speed.”.</p>
-          </div>
-          <div class="slider-box mx-2 ">
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="d-flex align-items-center">
-                <div class="slider-image">
-                  <img src="./assets/images/profile-3.png" alt="image">
-                </div>
-                <div class="para-1 pl-20">
-                  <h2 class="slick-box-heading mb-0">Kim Young Jou</h2>
-                  <p class="slick-box-address mb-0">Seoul, South Korea</p>
-                </div>
-              </div>
-              <div class="para-2 d-flex align-items-center gap-10">
-                <p class="svg-no mb-0">4.5</p>
-                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M14.189 6.16583L10.2218 5.58926L8.44834 1.99395C8.39991 1.89551 8.32022 1.81583 8.22178 1.76739C7.97491 1.64551 7.67491 1.74708 7.55147 1.99395L5.77803 5.58926L1.81084 6.16583C1.70147 6.18145 1.60147 6.23301 1.52491 6.31114C1.43235 6.40627 1.38134 6.53426 1.3831 6.66699C1.38486 6.79971 1.43924 6.9263 1.53428 7.01895L4.40459 9.81739L3.72647 13.769C3.71057 13.8609 3.72074 13.9554 3.75583 14.0418C3.79093 14.1283 3.84953 14.2032 3.92501 14.258C4.00049 14.3128 4.08982 14.3454 4.18288 14.352C4.27593 14.3586 4.36898 14.3391 4.45147 14.2955L7.99991 12.4299L11.5483 14.2955C11.6452 14.3471 11.7577 14.3643 11.8655 14.3455C12.1374 14.2986 12.3202 14.0408 12.2733 13.769L11.5952 9.81739L14.4655 7.01895C14.5437 6.94239 14.5952 6.84239 14.6108 6.73301C14.653 6.45958 14.4624 6.20645 14.189 6.16583Z"
-                    fill="#FEA250" />
-                </svg>
-              </div>
-            </div>
-            <p class="slick-para-3 mb-0">“This is very unusual for my business that currently requires a
-              virtual private network that has high security.”.</p>
-          </div>
-          <div class="slider-box mx-2 ">
-            <div class="d-flex align-items-center justify-content-between">
-              <div class="d-flex align-items-center">
-                <div class="slider-image">
-                  <img src="./assets/images/profile-img.png" alt="image">
-                </div>
-                <div class="para-1 pl-20">
-                  <h2 class="slick-box-heading mb-0">Viezh Robert</h2>
-                  <p class="slick-box-address mb-0">Warsaw, Poland</p>
-                </div>
-              </div>
-              <div class="para-2 d-flex align-items-center  gap-10">
-                <p class="svg-no mb-0">4.5</p>
-                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M14.189 6.16583L10.2218 5.58926L8.44834 1.99395C8.39991 1.89551 8.32022 1.81583 8.22178 1.76739C7.97491 1.64551 7.67491 1.74708 7.55147 1.99395L5.77803 5.58926L1.81084 6.16583C1.70147 6.18145 1.60147 6.23301 1.52491 6.31114C1.43235 6.40627 1.38134 6.53426 1.3831 6.66699C1.38486 6.79971 1.43924 6.9263 1.53428 7.01895L4.40459 9.81739L3.72647 13.769C3.71057 13.8609 3.72074 13.9554 3.75583 14.0418C3.79093 14.1283 3.84953 14.2032 3.92501 14.258C4.00049 14.3128 4.08982 14.3454 4.18288 14.352C4.27593 14.3586 4.36898 14.3391 4.45147 14.2955L7.99991 12.4299L11.5483 14.2955C11.6452 14.3471 11.7577 14.3643 11.8655 14.3455C12.1374 14.2986 12.3202 14.0408 12.2733 13.769L11.5952 9.81739L14.4655 7.01895C14.5437 6.94239 14.5952 6.84239 14.6108 6.73301C14.653 6.45958 14.4624 6.20645 14.189 6.16583Z"
-                    fill="#FEA250" />
-                </svg>
-              </div>
-            </div>
-            <p class="slick-para-3 mb-0">“Wow... I am very happy to use this VPN, it turned out to be more
-              than
-              my
-              expectations and so
-              far
-              there have been no
-              problems. LaslesVPN always the best”.</p>
-          </div>
-          <div class="slider-box mx-2 ">
-            <div class="d-flex align-items-center justify-content-between flex-wrap">
-              <div class="d-flex align-items-center">
-                <div class="slider-image">
-                  <img src="./assets/images/profile-2.png" alt="image">
-                </div>
-                <div class="para-1 pl-20">
-                  <h2 class="slick-box-heading mb-0">Yessica Christy</h2>
-                  <p class="slick-box-address mb-0">Shanxi, China</p>
-                </div>
-              </div>
-              <div class="para-2 d-flex align-items-center gap-10">
-                <p class="svg-no mb-0">4.5</p>
-                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M14.189 6.16583L10.2218 5.58926L8.44834 1.99395C8.39991 1.89551 8.32022 1.81583 8.22178 1.76739C7.97491 1.64551 7.67491 1.74708 7.55147 1.99395L5.77803 5.58926L1.81084 6.16583C1.70147 6.18145 1.60147 6.23301 1.52491 6.31114C1.43235 6.40627 1.38134 6.53426 1.3831 6.66699C1.38486 6.79971 1.43924 6.9263 1.53428 7.01895L4.40459 9.81739L3.72647 13.769C3.71057 13.8609 3.72074 13.9554 3.75583 14.0418C3.79093 14.1283 3.84953 14.2032 3.92501 14.258C4.00049 14.3128 4.08982 14.3454 4.18288 14.352C4.27593 14.3586 4.36898 14.3391 4.45147 14.2955L7.99991 12.4299L11.5483 14.2955C11.6452 14.3471 11.7577 14.3643 11.8655 14.3455C12.1374 14.2986 12.3202 14.0408 12.2733 13.769L11.5952 9.81739L14.4655 7.01895C14.5437 6.94239 14.5952 6.84239 14.6108 6.73301C14.653 6.45958 14.4624 6.20645 14.189 6.16583Z"
-                    fill="#FEA250" />
-                </svg>
-              </div>
-            </div>
-            <p class="slick-para-3 mb-0">“I like it because I like to travel far and still can connect with
-              high speed.”.</p>
-          </div>
-
-        </div>
-        <div class="d-flex gap-15 justify-content-flex-end slick-arrow-buttons mt-25 ">
-
-          <button class="prev d-sm-flex d-none align-items-center justify-content-center"><svg width="20" height="18"
-              viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M18.75 7.74961H3.925L8.4625 2.29961C8.67467 2.04434 8.77675 1.71524 8.74628 1.38471C8.7158 1.05417 8.55527 0.749285 8.3 0.537112C8.04473 0.324939 7.71563 0.222862 7.3851 0.253336C7.05456 0.283811 6.74967 0.444341 6.5375 0.699612L0.2875 8.19961C0.245451 8.25927 0.207849 8.32194 0.175 8.38711C0.175 8.44961 0.175 8.48711 0.0875002 8.54961C0.0308421 8.69294 0.0011764 8.8455 0 8.99961C0.0011764 9.15372 0.0308421 9.30629 0.0875002 9.44961C0.0875002 9.51211 0.0874998 9.54961 0.175 9.61211C0.207849 9.67729 0.245451 9.73996 0.2875 9.79961L6.5375 17.2996C6.65503 17.4407 6.8022 17.5542 6.96856 17.632C7.13491 17.7097 7.31636 17.7499 7.5 17.7496C7.79207 17.7502 8.07511 17.6485 8.3 17.4621C8.42657 17.3572 8.5312 17.2283 8.60789 17.0829C8.68458 16.9374 8.73183 16.7783 8.74692 16.6146C8.76202 16.4509 8.74466 16.2858 8.69586 16.1288C8.64705 15.9718 8.56775 15.8259 8.4625 15.6996L3.925 10.2496H18.75C19.0815 10.2496 19.3995 10.1179 19.6339 9.8835C19.8683 9.64907 20 9.33113 20 8.99961C20 8.66809 19.8683 8.35015 19.6339 8.11573C19.3995 7.88131 19.0815 7.74961 18.75 7.74961Z"
-                fill="#F53838" />
-            </svg>
-          </button>
-          <button class="next align-items-center d-sm-flex d-none justify-content-center"><svg width="20" height="18"
-              viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M1.25 7.74961H16.075L11.5375 2.29961C11.3253 2.04434 11.2232 1.71524 11.2537 1.38471C11.2842 1.05417 11.4447 0.749285 11.7 0.537112C11.9553 0.324939 12.2844 0.222862 12.6149 0.253336C12.9454 0.283811 13.2503 0.444341 13.4625 0.699612L19.7125 8.19961C19.7545 8.25927 19.7922 8.32194 19.825 8.38711C19.825 8.44961 19.825 8.48711 19.9125 8.54961C19.9692 8.69294 19.9988 8.8455 20 8.99961C19.9988 9.15372 19.9692 9.30629 19.9125 9.44961C19.9125 9.51211 19.9125 9.54961 19.825 9.61211C19.7922 9.67729 19.7545 9.73996 19.7125 9.79961L13.4625 17.2996C13.345 17.4407 13.1978 17.5542 13.0314 17.632C12.8651 17.7097 12.6836 17.7499 12.5 17.7496C12.2079 17.7502 11.9249 17.6485 11.7 17.4621C11.5734 17.3572 11.4688 17.2283 11.3921 17.0829C11.3154 16.9374 11.2682 16.7783 11.2531 16.6146C11.238 16.4509 11.2553 16.2858 11.3041 16.1288C11.3529 15.9718 11.4322 15.8259 11.5375 15.6996L16.075 10.2496H1.25C0.91848 10.2496 0.600536 10.1179 0.366116 9.8835C0.131695 9.64907 0 9.33113 0 8.99961C0 8.66809 0.131695 8.35015 0.366116 8.11573C0.600536 7.88131 0.91848 7.74961 1.25 7.74961Z"
-                fill="#F53838" />
-            </svg>
-          </button>
-        </div>
-      </div>
-
-    </div>
-
-  </section>
-  <!-- ------------------------------section-6 -------------------------->
-  <section class=" pt-10 pb-40 bg gradient" id="blog">
-    <div class="container">
-      <div class="d-flex justify-content-between align-items-center mt-57 heading-box flex-wrap ">
-        <div class="">
-          <h2 class="subscribe fs-27 fs-21 lg-38">Subscribe Now for Get Special Features!</h2>
-          <p class="subscribe-txt mt-20">Let's subscribe with us and find the fun.</p>
-        </div>
-        <div class=" ">
-          <button class="subscribe-btn">Subscribe Now <br></button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!------------------------------- section-7 -------------------------------->
-  <footer class="backgroundcolor-footer bg" id="about">
-    <div class="container" id="help">
-      <div class="row">
-        <div class="col-md-4 mt-20 col-12">
-          <div class="d-flex align-items-center gap-10">
-            <div class="">
-              <img src="./assets/images/logo.png" alt="logo">
-            </div>
-            <h2 class="last-laslesvpn mb-0">Lasles<span>VPN</span></h2>
-
-          </div>
-          <p class="last-paragraph pt-20 mb-0"><span>LaslesVPN</span> is a private virtual network that has
-            unique
-            features and has high security.</p>
-
-          <div class="d-flex gap-3 pb-4 pt-30">
-            <a href="https://www.facebook.com/" target="_blank"
-              class="svg-circle d-flex align-items-center justify-content-center c-p trnsition">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M14 14H16.5L17.5 10H14V8C14 6.97 14 6 16 6H17.5V2.64C17.174 2.597 15.943 2.5 14.643 2.5C11.928 2.5 10 4.157 10 7.2V10H7V14H10V22.5H14V14Z"
-                  fill="#F53838" />
-              </svg>
-            </a>
-
-            <a href="https://x.com/?lang=en" target="_blank"
-              class="svg-circle d-flex align-items-center justify-content-center c-p trnsition">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_39345_1082)">
-                  <path
-                    d="M22.1618 5.6569C21.3984 5.9946 20.5888 6.21638 19.7598 6.3149C20.6336 5.79234 21.2875 4.96992 21.5998 4.0009C20.7798 4.4889 19.8808 4.8309 18.9438 5.0159C18.3144 4.34248 17.4802 3.89587 16.5708 3.74549C15.6614 3.59511 14.7277 3.74939 13.9151 4.18436C13.1024 4.61932 12.4562 5.31059 12.0769 6.1507C11.6976 6.9908 11.6066 7.93268 11.8178 8.8299C10.1549 8.74656 8.52814 8.31443 7.0431 7.56157C5.55805 6.80871 4.24794 5.75195 3.19781 4.4599C2.8261 5.09835 2.63076 5.82413 2.63181 6.5629C2.63181 8.0129 3.36981 9.2939 4.49181 10.0439C3.82782 10.023 3.17844 9.84368 2.59781 9.5209V9.5729C2.59801 10.5386 2.93218 11.4745 3.54366 12.222C4.15513 12.9694 5.00629 13.4824 5.95281 13.6739C5.33642 13.8409 4.69012 13.8656 4.06281 13.7459C4.32968 14.5771 4.84982 15.3041 5.5504 15.825C6.25099 16.3459 7.09694 16.6347 7.96981 16.6509C7.10229 17.3322 6.10899 17.8359 5.04669 18.1331C3.98439 18.4303 2.87394 18.5152 1.77881 18.3829C3.69051 19.6123 5.9159 20.265 8.18881 20.2629C15.8818 20.2629 20.0888 13.8899 20.0888 8.3629C20.0888 8.1829 20.0838 8.0009 20.0758 7.8229C20.8947 7.23107 21.6014 6.49792 22.1628 5.6579L22.1618 5.6569Z"
+        <div class="box_1 w-100 h-100">
+          <div class="row firstbox"> 
+            <div class="col-12  col-md-4 col-sm-6 mt-4 position-relative border-right">
+              <div class=" d-flex justify-content-center">
+                <svg width="55" height="56" viewBox="0 0 55 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M27.4996 26.3484C28.4544 26.3484 29.3701 25.9692 30.0452 25.294C30.7203 24.6189 31.0996 23.7032 31.0996 22.7484C31.0996 21.7937 30.7203 20.878 30.0452 20.2029C29.3701 19.5277 28.4544 19.1484 27.4996 19.1484C26.5448 19.1484 25.6292 19.5277 24.954 20.2029C24.2789 20.878 23.8996 21.7937 23.8996 22.7484C23.8996 23.7032 24.2789 24.6189 24.954 25.294C25.6292 25.9692 26.5448 26.3484 27.4996 26.3484ZM22.3983 37.1484C20.5765 37.1484 19.0419 35.617 19.739 33.9339C20.1612 32.9148 20.7799 31.9888 21.5599 31.2087C22.3399 30.4287 23.2659 29.81 24.2851 29.3878C25.3042 28.9657 26.3965 28.7484 27.4996 28.7484C28.6027 28.7484 29.695 28.9657 30.7142 29.3878C31.7333 29.81 32.6593 30.4287 33.4393 31.2087C34.2193 31.9888 34.8381 32.9148 35.2602 33.9339C35.9574 35.617 34.4228 37.1484 32.601 37.1484H22.3983Z"
                     fill="#F53838" />
-                </g>
-              </svg>
-            </a>
-
-            <a href="https://www.instagram.com/" target="_blank"
-              class="svg-circle d-flex align-items-center justify-content-center c-p trnsition">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M12 2C14.717 2 15.056 2.01 16.122 2.06C17.187 2.11 17.912 2.277 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8305 4.1779 21.224 4.78259 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.987 8.944 22 9.283 22 12C22 14.717 21.99 15.056 21.94 16.122C21.89 17.187 21.722 17.912 21.475 18.55C21.2247 19.2178 20.8311 19.8226 20.322 20.322C19.822 20.8303 19.2173 21.2238 18.55 21.475C17.913 21.722 17.187 21.89 16.122 21.94C15.056 21.987 14.717 22 12 22C9.283 22 8.944 21.99 7.878 21.94C6.813 21.89 6.088 21.722 5.45 21.475C4.78233 21.2245 4.17753 20.8309 3.678 20.322C3.16941 19.8222 2.77593 19.2175 2.525 18.55C2.277 17.913 2.11 17.187 2.06 16.122C2.013 15.056 2 14.717 2 12C2 9.283 2.01 8.944 2.06 7.878C2.11 6.812 2.277 6.088 2.525 5.45C2.77524 4.78218 3.1688 4.17732 3.678 3.678C4.17767 3.16923 4.78243 2.77573 5.45 2.525C6.088 2.277 6.812 2.11 7.878 2.06C8.944 2.013 9.283 2 12 2ZM12 7C10.6739 7 9.40215 7.52678 8.46447 8.46447C7.52678 9.40215 7 10.6739 7 12C7 13.3261 7.52678 14.5979 8.46447 15.5355C9.40215 16.4732 10.6739 17 12 17C13.3261 17 14.5979 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5979 7.52678 13.3261 7 12 7ZM18.5 6.75C18.5 6.41848 18.3683 6.10054 18.1339 5.86612C17.8995 5.6317 17.5815 5.5 17.25 5.5C16.9185 5.5 16.6005 5.6317 16.3661 5.86612C16.1317 6.10054 16 6.41848 16 6.75C16 7.08152 16.1317 7.39946 16.3661 7.63388C16.6005 7.8683 16.9185 8 17.25 8C17.5815 8 17.8995 7.8683 18.1339 7.63388C18.3683 7.39946 18.5 7.08152 18.5 6.75ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9Z"
-                  fill="#F53838" />
-              </svg>
-            </a>
+                </svg>
+                <div class="pl_36">
+                  <h2 class="mb-0 number_90 black fs_lg fw_2xl">90+</h2>
+                  <h2 class="mb-0 User_s white_3 fs_md fw_md">Users</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-12  col-md-4 col-sm-6  mt-4 ps-4 position-relative border-right">
+              <div class=" d-flex justify-content-center">
+                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="0.5" y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC" />
+                  <path
+                    d="M35 24.5488C35 23.6296 34.8189 22.7193 34.4672 21.87C34.1154 21.0208 33.5998 20.2491 32.9497 19.5991C32.2997 18.9491 31.5281 18.4335 30.6788 18.0817C29.8295 17.7299 28.9193 17.5488 28 17.5488C27.0807 17.5488 26.1705 17.7299 25.3212 18.0817C24.4719 18.4335 23.7003 18.9491 23.0503 19.5991C22.4002 20.2491 21.8846 21.0208 21.5328 21.87C21.1811 22.7193 21 23.6296 21 24.5488C21 25.9358 21.41 27.2258 22.105 28.3138H22.097C24.457 32.0088 28 37.5488 28 37.5488L33.903 28.3138H33.896C34.6164 27.1902 34.9995 25.8836 35 24.5488ZM28 27.5488C27.2044 27.5488 26.4413 27.2328 25.8787 26.6701C25.3161 26.1075 25 25.3445 25 24.5488C25 23.7532 25.3161 22.9901 25.8787 22.4275C26.4413 21.8649 27.2044 21.5488 28 21.5488C28.7956 21.5488 29.5587 21.8649 30.1213 22.4275C30.6839 22.9901 31 23.7532 31 24.5488C31 25.3445 30.6839 26.1075 30.1213 26.6701C29.5587 27.2328 28.7956 27.5488 28 27.5488Z"
+                    fill="#F53838" />
+                </svg>
+                <div class="pl_36">
+                  <h2 class="mb-0 number_90 black fs_lg fw_2xl">30+</h2>
+                  <h2 class="mb-0 User_s white_3 fs_md fw_md">Locations</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-sm-6  mt-4 mb-4">
+              <div class="d-flex justify-content-center">
+                <svg width="55" height="56" viewBox="0 0 55 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC" />
+                  <path
+                    d="M35.5 18.5488H19.5C18.9696 18.5488 18.4609 18.7595 18.0858 19.1346C17.7107 19.5097 17.5 20.0184 17.5 20.5488V24.5488C17.5 25.0793 17.7107 25.588 18.0858 25.963C18.4609 26.3381 18.9696 26.5488 19.5 26.5488H35.5C36.0304 26.5488 36.5391 26.3381 36.9142 25.963C37.2893 25.588 37.5 25.0793 37.5 24.5488V20.5488C37.5 20.0184 37.2893 19.5097 36.9142 19.1346C36.5391 18.7595 36.0304 18.5488 35.5 18.5488ZM30.5 22.5488C30.5 23.1011 30.0523 23.5488 29.5 23.5488C28.9477 23.5488 28.5 23.1011 28.5 22.5488C28.5 21.9965 28.9477 21.5488 29.5 21.5488C30.0523 21.5488 30.5 21.9965 30.5 22.5488ZM34.5 22.5488C34.5 23.1011 34.0523 23.5488 33.5 23.5488C32.9477 23.5488 32.5 23.1011 32.5 22.5488C32.5 21.9965 32.9477 21.5488 33.5 21.5488C34.0523 21.5488 34.5 21.9965 34.5 22.5488ZM35.5 28.5488H19.5C18.9696 28.5488 18.4609 28.7595 18.0858 29.1346C17.7107 29.5097 17.5 30.0184 17.5 30.5488V34.5488C17.5 35.0793 17.7107 35.588 18.0858 35.963C18.4609 36.3381 18.9696 36.5488 19.5 36.5488H35.5C36.0304 36.5488 36.5391 36.3381 36.9142 35.963C37.2893 35.588 37.5 35.0793 37.5 34.5488V30.5488C37.5 30.0184 37.2893 29.5097 36.9142 29.1346C36.5391 28.7595 36.0304 28.5488 35.5 28.5488ZM30.5 32.5488C30.5 33.1011 30.0523 33.5488 29.5 33.5488C28.9477 33.5488 28.5 33.1011 28.5 32.5488C28.5 31.9965 28.9477 31.5488 29.5 31.5488C30.0523 31.5488 30.5 31.9965 30.5 32.5488ZM34.5 32.5488C34.5 33.1011 34.0523 33.5488 33.5 33.5488C32.9477 33.5488 32.5 33.1011 32.5 32.5488C32.5 31.9965 32.9477 31.5488 33.5 31.5488C34.0523 31.5488 34.5 31.9965 34.5 32.5488Z"
+                    fill="#F53838" />
+                </svg>
+                <div class="pl_36">
+                  <h2 class="mb-0 number_90 black fs_lg fw_2xl">50+</h2>
+                  <h2 class="mb-0 User_s white_3 fs_md fw_md">Servers</h2>
+                </div>
+              </div>
+            </div>
           </div>
-
-
-          <p class="lastbottom-laslesvpn mb-0">©2020Lasles <span>VPN</span></p>
         </div>
-        <div class="col-md-8 col-12">
-          <div class="row pb-40 ">
-            <div class="col-md-4 mt-20  col-6  d-flex justify-content-lg-center">
-              <div class="blank  d-flex flex-column ">
-                <h2 class="product mb-0">Product</h2>
-                <a href="#download" class="links-footer mt-20 mb-0">Download</a>
-
-                <a href="#pricing" class="links-footer mt-20 mb-0"> Pricing</a>
-
-                <a href="#location" class="links-footer mt-20 mb-0">Locations</a>
-
-                <a href="#server" class="links-footer mt-20 mb-0">Server</a>
-
-                <a href="#country" class="links-footer mt-20 mb-0">Countries</a>
-
-                <a href="#blog" class="links-footer mt-20 mb-0">Blog</a>
-
-              </div>
+        <div class="row pb-143">
+          <div class="col-lg-6  col-12 pt-90">
+            <img src="/assets/images/devloper-2.png" alt="picture" class="w-100">
+          </div>
+          <div class="col-lg-6 col-12 pt-96">
+            <h3 class="feature sect2 pb-4">We Provide Many Features You Can Use</h3>
+            <p class="explore sect2 pb-3">You can explore the features that we provide with fun and have their own
+              functions
+              each
+              feature.</p>
+            <div>
+              <ul>
+                <li class="text-decoration-none pt-2 explore"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12.1211 2.54883C6.60709 2.54883 2.12109 7.03483 2.12109 12.5488C2.12109 18.0628 6.60709 22.5488 12.1211 22.5488C17.6351 22.5488 22.1211 18.0628 22.1211 12.5488C22.1211 7.03483 17.6351 2.54883 12.1211 2.54883ZM10.1221 16.9618L7.11655 13.9628C6.72579 13.5728 6.725 12.94 7.11478 12.5491C7.50481 12.158 8.13811 12.1573 8.52902 12.5475L10.1201 14.1358L14.7071 9.54883C15.0976 9.15836 15.7306 9.15836 16.1211 9.54883C16.5116 9.93929 16.5116 10.5724 16.1211 10.9628L10.1221 16.9618Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  Powerfull online protection.
+                </li>
+                <li class="text-decoration-none pt-2 explore"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12.1211 2.54883C6.60709 2.54883 2.12109 7.03483 2.12109 12.5488C2.12109 18.0628 6.60709 22.5488 12.1211 22.5488C17.6351 22.5488 22.1211 18.0628 22.1211 12.5488C22.1211 7.03483 17.6351 2.54883 12.1211 2.54883ZM10.1221 16.9618L7.11655 13.9628C6.72579 13.5728 6.725 12.94 7.11478 12.5491C7.50481 12.158 8.13811 12.1573 8.52902 12.5475L10.1201 14.1358L14.7071 9.54883C15.0976 9.15836 15.7306 9.15836 16.1211 9.54883C16.5116 9.93929 16.5116 10.5724 16.1211 10.9628L10.1221 16.9618Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  Internet without borders.
+                </li>
+                <li class="text-decoration-none pt-2 explore"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12.1211 2.54883C6.60709 2.54883 2.12109 7.03483 2.12109 12.5488C2.12109 18.0628 6.60709 22.5488 12.1211 22.5488C17.6351 22.5488 22.1211 18.0628 22.1211 12.5488C22.1211 7.03483 17.6351 2.54883 12.1211 2.54883ZM10.1221 16.9618L7.11655 13.9628C6.72579 13.5728 6.725 12.94 7.11478 12.5491C7.50481 12.158 8.13811 12.1573 8.52902 12.5475L10.1201 14.1358L14.7071 9.54883C15.0976 9.15836 15.7306 9.15836 16.1211 9.54883C16.5116 9.93929 16.5116 10.5724 16.1211 10.9628L10.1221 16.9618Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  Supercharged VPN
+                </li>
+                <li class="text-decoration-none pt-2 explore"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12.1211 2.54883C6.60709 2.54883 2.12109 7.03483 2.12109 12.5488C2.12109 18.0628 6.60709 22.5488 12.1211 22.5488C17.6351 22.5488 22.1211 18.0628 22.1211 12.5488C22.1211 7.03483 17.6351 2.54883 12.1211 2.54883ZM10.1221 16.9618L7.11655 13.9628C6.72579 13.5728 6.725 12.94 7.11478 12.5491C7.50481 12.158 8.13811 12.1573 8.52902 12.5475L10.1201 14.1358L14.7071 9.54883C15.0976 9.15836 15.7306 9.15836 16.1211 9.54883C16.5116 9.93929 16.5116 10.5724 16.1211 10.9628L10.1221 16.9618Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  No specific time limits.
+                </li>
+              </ul>
             </div>
-            <div class="col-md-4 mt-20  col-6  d-flex justify-content-lg-center  ">
-              <div class="blank  d-flex  flex-column ">
-                <h2 class="product mb-0">Engage</h2>
-                <a href="#vpn" class="links-footer mt-20 mb-0">LaslesVPN ? </a>
-
-                <a href="#faq" class="links-footer mt-20 mb-0"> FAQ</a>
-
-                <a href="#tutorial" class="links-footer mt-20 mb-0">Tutorials</a>
-
-                <a href="#about" class="links-footer mt-20 mb-0">About Us</a>
-
-                <a href="#privacy" class="links-footer mt-20 mb-0">Privacy Policy</a>
-
-                <a href="#" class="links-footer mt-20 mb-0">Terms of Service</a>
-
-              </div>
+          </div>
+        </div>
+    </section>
+    <!-- ------------------------------section-two-------------------------------------- -->
+    <section class="sec-two">
+      <div class="container">
+        <h3 class="text-center plan pt-3">Choose Your Plan</h3>
+        <p class="text-center package pt-3">Let's choose the package that is best for you and explore it happily
+          and<br>cheerfully.</p>
+        <div class="row">
+          <div class="col-12 col-lg-4 col-md-6 mt-4">
+            <div class="big-box  flex-column d-flex align-items-center justify-content-center">
+              <img src="./assets/images/Free.png" alt="plans" class="boxx">
+              <h4 class="Free-Plan">Free Plan</h4>
+              <ul>
+                <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  Unlimited Bandwitch
+                </li>
+                <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  Encrypted Connection
+                </li>
+                <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  No Traffic Logs
+                </li>
+                <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  Works on All Devices
+                </li>
+              </ul>
+              <p class="free mt-130">Free</p>
+              <button class="box-btn">Select</button>
             </div>
-            <div class="col-md-4 mt-20 pt-10 col-12 col-sm-6  d-flex justify-content-lg-center">
-              <div class="blank d-flex flex-column">
-                <h2 class="product mb-0">Earn Money</h2>
-                <a href="#" class="links-footer mt-20 mb-0">Affiliate </a>
-                <a href="#" class="links-footer mt-20 mb-0">Become Partner</a>
-              </div>
+          </div>
+          <!---------------------box-2 ----------------------->
+          <div class="col-12 col-lg-4 col-md-6 mt-4">
+            <div class="big-box  flex-column d-flex align-items-center justify-content-center">
+              <img src="./assets/images/Free.png" alt="plans" class="boxx">
+              <h4 class="Free-Plan">Standard Plan</h4>
+              <ul>
+                <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  Unlimited Bandwitch
+                </li>
+                <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  Encrypted Connection
+                </li>
+                <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  Yes Traffic Logs
+                </li>
+                <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  Works on All Devices
+                </li>
+
+                <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  Connect Anyware
+                </li>
+              </ul>
+              <p class="dollar mt-90 mt-130">$9 <span class="month">/ mo</span></p>
+              <button class="box-btn">Select</button>
+            </div>
+          </div>
+          <!---------------------------box-3-------------------------------- -->
+          <div class="col-12 col-lg-4 col-md-6 mt-4">
+            <div class="big-box  flex-column d-flex align-items-center justify-content-center">
+              <img src="./assets/images/Free.png" alt="plans" class="boxx">
+              <h4 class="Free-Plan">Premium Plan</h4>
+              <ul>
+                <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  Unlimited Bandwitch
+                </li>
+                <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  Encrypted Connection
+                </li>
+                <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  No Traffic Logs
+                </li>
+                <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  Works on All Devices
+                </li>
+                <li class="offers text-decoration-none mt-4"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.4491 17.2802C11.3179 17.2805 11.1878 17.2548 11.0665 17.2047C10.9452 17.1546 10.8349 17.081 10.7421 16.9882L6.50012 12.7452C6.40455 12.653 6.32829 12.5427 6.2758 12.4208C6.2233 12.2988 6.19563 12.1676 6.19438 12.0348C6.19313 11.902 6.21834 11.7703 6.26854 11.6474C6.31873 11.5245 6.3929 11.4128 6.48673 11.3188C6.58055 11.2249 6.69215 11.1505 6.81501 11.1002C6.93787 11.0498 7.06953 11.0244 7.20231 11.0254C7.33509 11.0265 7.46633 11.054 7.58837 11.1063C7.71041 11.1586 7.82081 11.2347 7.91312 11.3302L11.4481 14.8652L17.8131 8.50219C18.0006 8.31455 18.255 8.20908 18.5203 8.20898C18.7855 8.20889 19.04 8.31418 19.2276 8.50169C19.4153 8.6892 19.5207 8.94356 19.5208 9.20883C19.5209 9.4741 19.4156 9.72855 19.2281 9.91619L12.1561 16.9882C12.0633 17.081 11.9531 17.1546 11.8317 17.2047C11.7104 17.2548 11.5804 17.2805 11.4491 17.2802Z"
+                      fill="#2FAB73" />
+                  </svg>
+                  Get New Features
+                </li>
+              </ul>
+              <p class="dollar mt-90 mt-130">$12 <span class="month">/ mo</span></p>
+              <button class="box-btn">Select</button>
             </div>
           </div>
         </div>
       </div>
+    </section>
+    <!-- -----------------------------sec-3-------------------------- -->
+    <section class="sec-3">
+      <div class="container">
+        <h3 class="text-center   global">Huge Global Network of Fast VPN</h3>
+        <p class="location">See <sapn class="las-vpn">LaslesVPN</sapn>everywhere to make it easier for you when you move
+          locations.</p>
+        <img src="./assets/images/world-map.png" alt="world-map" class="w-100 map">
+        <div class="row">
+          <div class="social-media gap-5 d-flex mt-114 overflow-auto align-items-center">
+            <a  href="https://www.netflix.com/in/" target="_blank">
+               <img src="./assets/images/netflix.svg"
+                alt="netflix"></a>
+            <a href="https://www.reddit.com/" target="_blank">
+              <img src="./assets/images/reddit.png"
+                alt="reddit"></a>
+            <a  href="https://www.amazon.in/" target="_blank">
+              <img src="./assets/images/amzone.png"
+                alt="amzone"></a>
+                <a>
+              <img src="./assets/images/discord.png"
+                alt="discord" </a>
 
-    </div>
-  </footer>
+              <a  href="https://accounts.spotify.com/en/login" target="_blank"><img src="./assets/images/spotify.png" alt="spotify"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -----------------------section-4------------------------------------- -->
+    <section class="bg pb-10 overflow-hidden position-relative">
+      <div class="container" id="testimonials">
+        <div class="d-flex justify-content-center">
+          <div class="pt-57">
+            <h2 class="trusted-by mb-0 text-center">Trusted by Thousands of</h2>
+            <h2 class="happy-customer mb-0 text-center ">Happy Customer</h2>
+            <p class="these-are mb-0 text-center pt-20">These are the stories of our customers who have joined us with
+              great</p>
+            <p class="pleasure-when d-flex justify-content-center mb-0 text-center pb-60">pleasure when using this crazy
+              feature.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-60">
+        <div class="container" id="features">
+          <div class="sliderbox z-5  align-items-center">
+            <div class="slider-box mx-2 ">
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <div class="slider-image">
+                    <img src="./assets/images/profile-img.png" alt="image">
+                  </div>
+                  <div class="para-1 pl-20">
+                    <h2 class="slick-box-heading mb-0">Viezh Robert</h2>
+                    <p class="slick-box-address mb-0">Warsaw, Poland</p>
+                  </div>
+                </div>
+                <div class="para-2 d-flex align-items-center  gap-10">
+                  <p class="svg-no mb-0">4.5</p>
+                  <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M14.189 6.16583L10.2218 5.58926L8.44834 1.99395C8.39991 1.89551 8.32022 1.81583 8.22178 1.76739C7.97491 1.64551 7.67491 1.74708 7.55147 1.99395L5.77803 5.58926L1.81084 6.16583C1.70147 6.18145 1.60147 6.23301 1.52491 6.31114C1.43235 6.40627 1.38134 6.53426 1.3831 6.66699C1.38486 6.79971 1.43924 6.9263 1.53428 7.01895L4.40459 9.81739L3.72647 13.769C3.71057 13.8609 3.72074 13.9554 3.75583 14.0418C3.79093 14.1283 3.84953 14.2032 3.92501 14.258C4.00049 14.3128 4.08982 14.3454 4.18288 14.352C4.27593 14.3586 4.36898 14.3391 4.45147 14.2955L7.99991 12.4299L11.5483 14.2955C11.6452 14.3471 11.7577 14.3643 11.8655 14.3455C12.1374 14.2986 12.3202 14.0408 12.2733 13.769L11.5952 9.81739L14.4655 7.01895C14.5437 6.94239 14.5952 6.84239 14.6108 6.73301C14.653 6.45958 14.4624 6.20645 14.189 6.16583Z"
+                      fill="#FEA250" />
+                  </svg>
+                </div>
+              </div>
+              <p class="slick-para-3 mb-0">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no
+                problems. LaslesVPN always the best”.
+                </p>
+            </div>
+            <div class="slider-box mx-2 ">
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <div class="slider-image">
+                    <img src="./assets/images/profile-2.png" alt="image">
+                  </div>
+                  <div class="para-1 pl-20">
+                    <h2 class="slick-box-heading mb-0">Yessica Christy</h2>
+                    <p class="slick-box-address mb-0">Shanxi, China</p>
+                  </div>
+                </div>
+                <div class="para-2 d-flex align-items-center gap-10">
+                  <p class="svg-no mb-0">4.5</p>
+                  <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M14.189 6.16583L10.2218 5.58926L8.44834 1.99395C8.39991 1.89551 8.32022 1.81583 8.22178 1.76739C7.97491 1.64551 7.67491 1.74708 7.55147 1.99395L5.77803 5.58926L1.81084 6.16583C1.70147 6.18145 1.60147 6.23301 1.52491 6.31114C1.43235 6.40627 1.38134 6.53426 1.3831 6.66699C1.38486 6.79971 1.43924 6.9263 1.53428 7.01895L4.40459 9.81739L3.72647 13.769C3.71057 13.8609 3.72074 13.9554 3.75583 14.0418C3.79093 14.1283 3.84953 14.2032 3.92501 14.258C4.00049 14.3128 4.08982 14.3454 4.18288 14.352C4.27593 14.3586 4.36898 14.3391 4.45147 14.2955L7.99991 12.4299L11.5483 14.2955C11.6452 14.3471 11.7577 14.3643 11.8655 14.3455C12.1374 14.2986 12.3202 14.0408 12.2733 13.769L11.5952 9.81739L14.4655 7.01895C14.5437 6.94239 14.5952 6.84239 14.6108 6.73301C14.653 6.45958 14.4624 6.20645 14.189 6.16583Z"
+                      fill="#FEA250" />
+                  </svg>
+                </div>
+              </div>
+              <p class="slick-para-3 mb-0">“I like it because I like to travel far and still can connect with
+                high speed.”.</p>
+            </div>
+            <div class="slider-box mx-2 ">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                  <div class="slider-image">
+                    <img src="./assets/images/profile-3.png" alt="image">
+                  </div>
+                  <div class="para-1 pl-20">
+                    <h2 class="slick-box-heading mb-0">Kim Young Jou</h2>
+                    <p class="slick-box-address mb-0">Seoul, South Korea</p>
+                  </div>
+                </div>
+                <div class="para-2 d-flex align-items-center gap-10">
+                  <p class="svg-no mb-0">4.5</p>
+                  <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M14.189 6.16583L10.2218 5.58926L8.44834 1.99395C8.39991 1.89551 8.32022 1.81583 8.22178 1.76739C7.97491 1.64551 7.67491 1.74708 7.55147 1.99395L5.77803 5.58926L1.81084 6.16583C1.70147 6.18145 1.60147 6.23301 1.52491 6.31114C1.43235 6.40627 1.38134 6.53426 1.3831 6.66699C1.38486 6.79971 1.43924 6.9263 1.53428 7.01895L4.40459 9.81739L3.72647 13.769C3.71057 13.8609 3.72074 13.9554 3.75583 14.0418C3.79093 14.1283 3.84953 14.2032 3.92501 14.258C4.00049 14.3128 4.08982 14.3454 4.18288 14.352C4.27593 14.3586 4.36898 14.3391 4.45147 14.2955L7.99991 12.4299L11.5483 14.2955C11.6452 14.3471 11.7577 14.3643 11.8655 14.3455C12.1374 14.2986 12.3202 14.0408 12.2733 13.769L11.5952 9.81739L14.4655 7.01895C14.5437 6.94239 14.5952 6.84239 14.6108 6.73301C14.653 6.45958 14.4624 6.20645 14.189 6.16583Z"
+                      fill="#FEA250" />
+                  </svg>
+                </div>
+              </div>
+              <p class="slick-para-3 mb-0">“This is very unusual for my business that currently requires a
+                virtual private network that has high security.”.</p>
+            </div>
+            <div class="slider-box mx-2 ">
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <div class="slider-image">
+                    <img src="./assets/images/profile-img.png" alt="image">
+                  </div>
+                  <div class="para-1 pl-20">
+                    <h2 class="slick-box-heading mb-0">Viezh Robert</h2>
+                    <p class="slick-box-address mb-0">Warsaw, Poland</p>
+                  </div>
+                </div>
+                <div class="para-2 d-flex align-items-center  gap-10">
+                  <p class="svg-no mb-0">4.5</p>
+                  <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M14.189 6.16583L10.2218 5.58926L8.44834 1.99395C8.39991 1.89551 8.32022 1.81583 8.22178 1.76739C7.97491 1.64551 7.67491 1.74708 7.55147 1.99395L5.77803 5.58926L1.81084 6.16583C1.70147 6.18145 1.60147 6.23301 1.52491 6.31114C1.43235 6.40627 1.38134 6.53426 1.3831 6.66699C1.38486 6.79971 1.43924 6.9263 1.53428 7.01895L4.40459 9.81739L3.72647 13.769C3.71057 13.8609 3.72074 13.9554 3.75583 14.0418C3.79093 14.1283 3.84953 14.2032 3.92501 14.258C4.00049 14.3128 4.08982 14.3454 4.18288 14.352C4.27593 14.3586 4.36898 14.3391 4.45147 14.2955L7.99991 12.4299L11.5483 14.2955C11.6452 14.3471 11.7577 14.3643 11.8655 14.3455C12.1374 14.2986 12.3202 14.0408 12.2733 13.769L11.5952 9.81739L14.4655 7.01895C14.5437 6.94239 14.5952 6.84239 14.6108 6.73301C14.653 6.45958 14.4624 6.20645 14.189 6.16583Z"
+                      fill="#FEA250" />
+                  </svg>
+                </div>
+              </div>
+              <p class="slick-para-3 mb-0">“Wow... I am very happy to use this VPN, it turned out to be more
+                than
+                my
+                expectations and so
+                far
+                there have been no
+                problems. LaslesVPN always the best”.</p>
+            </div>
+            <div class="slider-box mx-2 ">
+              <div class="d-flex align-items-center justify-content-between flex-wrap">
+                <div class="d-flex align-items-center">
+                  <div class="slider-image">
+                    <img src="./assets/images/profile-2.png" alt="image">
+                  </div>
+                  <div class="para-1 pl-20">
+                    <h2 class="slick-box-heading mb-0">Yessica Christy</h2>
+                    <p class="slick-box-address mb-0">Shanxi, China</p>
+                  </div>
+                </div>
+                <div class="para-2 d-flex align-items-center gap-10">
+                  <p class="svg-no mb-0">4.5</p>
+                  <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M14.189 6.16583L10.2218 5.58926L8.44834 1.99395C8.39991 1.89551 8.32022 1.81583 8.22178 1.76739C7.97491 1.64551 7.67491 1.74708 7.55147 1.99395L5.77803 5.58926L1.81084 6.16583C1.70147 6.18145 1.60147 6.23301 1.52491 6.31114C1.43235 6.40627 1.38134 6.53426 1.3831 6.66699C1.38486 6.79971 1.43924 6.9263 1.53428 7.01895L4.40459 9.81739L3.72647 13.769C3.71057 13.8609 3.72074 13.9554 3.75583 14.0418C3.79093 14.1283 3.84953 14.2032 3.92501 14.258C4.00049 14.3128 4.08982 14.3454 4.18288 14.352C4.27593 14.3586 4.36898 14.3391 4.45147 14.2955L7.99991 12.4299L11.5483 14.2955C11.6452 14.3471 11.7577 14.3643 11.8655 14.3455C12.1374 14.2986 12.3202 14.0408 12.2733 13.769L11.5952 9.81739L14.4655 7.01895C14.5437 6.94239 14.5952 6.84239 14.6108 6.73301C14.653 6.45958 14.4624 6.20645 14.189 6.16583Z"
+                      fill="#FEA250" />
+                  </svg>
+                </div>
+              </div>
+              <p class="slick-para-3 mb-0">“I like it because I like to travel far and still can connect with
+                high speed.”.</p>
+            </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
-    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          </div>
+          <div class="d-flex gap-15 justify-content-flex-end slick-arrow-buttons mt-25 ">
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-  <script src="/assets/js/app.js"></script>
-</body>
+            <button class="prev d-sm-flex d-none align-items-center justify-content-center"><svg width="20" height="18"
+                viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M18.75 7.74961H3.925L8.4625 2.29961C8.67467 2.04434 8.77675 1.71524 8.74628 1.38471C8.7158 1.05417 8.55527 0.749285 8.3 0.537112C8.04473 0.324939 7.71563 0.222862 7.3851 0.253336C7.05456 0.283811 6.74967 0.444341 6.5375 0.699612L0.2875 8.19961C0.245451 8.25927 0.207849 8.32194 0.175 8.38711C0.175 8.44961 0.175 8.48711 0.0875002 8.54961C0.0308421 8.69294 0.0011764 8.8455 0 8.99961C0.0011764 9.15372 0.0308421 9.30629 0.0875002 9.44961C0.0875002 9.51211 0.0874998 9.54961 0.175 9.61211C0.207849 9.67729 0.245451 9.73996 0.2875 9.79961L6.5375 17.2996C6.65503 17.4407 6.8022 17.5542 6.96856 17.632C7.13491 17.7097 7.31636 17.7499 7.5 17.7496C7.79207 17.7502 8.07511 17.6485 8.3 17.4621C8.42657 17.3572 8.5312 17.2283 8.60789 17.0829C8.68458 16.9374 8.73183 16.7783 8.74692 16.6146C8.76202 16.4509 8.74466 16.2858 8.69586 16.1288C8.64705 15.9718 8.56775 15.8259 8.4625 15.6996L3.925 10.2496H18.75C19.0815 10.2496 19.3995 10.1179 19.6339 9.8835C19.8683 9.64907 20 9.33113 20 8.99961C20 8.66809 19.8683 8.35015 19.6339 8.11573C19.3995 7.88131 19.0815 7.74961 18.75 7.74961Z"
+                  fill="#F53838" />
+              </svg>
+            </button>
+            <button class="next align-items-center d-sm-flex d-none justify-content-center"><svg width="20" height="18"
+                viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M1.25 7.74961H16.075L11.5375 2.29961C11.3253 2.04434 11.2232 1.71524 11.2537 1.38471C11.2842 1.05417 11.4447 0.749285 11.7 0.537112C11.9553 0.324939 12.2844 0.222862 12.6149 0.253336C12.9454 0.283811 13.2503 0.444341 13.4625 0.699612L19.7125 8.19961C19.7545 8.25927 19.7922 8.32194 19.825 8.38711C19.825 8.44961 19.825 8.48711 19.9125 8.54961C19.9692 8.69294 19.9988 8.8455 20 8.99961C19.9988 9.15372 19.9692 9.30629 19.9125 9.44961C19.9125 9.51211 19.9125 9.54961 19.825 9.61211C19.7922 9.67729 19.7545 9.73996 19.7125 9.79961L13.4625 17.2996C13.345 17.4407 13.1978 17.5542 13.0314 17.632C12.8651 17.7097 12.6836 17.7499 12.5 17.7496C12.2079 17.7502 11.9249 17.6485 11.7 17.4621C11.5734 17.3572 11.4688 17.2283 11.3921 17.0829C11.3154 16.9374 11.2682 16.7783 11.2531 16.6146C11.238 16.4509 11.2553 16.2858 11.3041 16.1288C11.3529 15.9718 11.4322 15.8259 11.5375 15.6996L16.075 10.2496H1.25C0.91848 10.2496 0.600536 10.1179 0.366116 9.8835C0.131695 9.64907 0 9.33113 0 8.99961C0 8.66809 0.131695 8.35015 0.366116 8.11573C0.600536 7.88131 0.91848 7.74961 1.25 7.74961Z"
+                  fill="#F53838" />
+              </svg>
+            </button>
+          </div>
+        </div>
 
-</html>
+      </div>
+
+    </section>
+    <!-- ------------------------------section-6 -------------------------->
+    <section class=" pt-10 pb-40 bg gradient" id="blog">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mt-57 heading-box flex-wrap ">
+          <div class="">
+            <h2 class="subscribe fs-27 fs-21 lg-38">Subscribe Now for Get Special Features!</h2>
+            <p class="subscribe-txt mt-20">Let's subscribe with us and find the fun.</p>
+          </div>
+          <div class=" ">
+            <button class="subscribe-btn">Subscribe Now <br></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------- section-7 -------------------------------->
+    <footer class="backgroundcolor-footer bg" id="about">
+      <div class="container" id="help">
+        <div class="row">
+          <div class="col-md-4 mt-20 col-12">
+            <div class="d-flex align-items-center gap-10">
+              <div class="">
+                <img src="./assets/images/logo.png" alt="logo">
+              </div>
+              <h2 class="last-laslesvpn mb-0">Lasles<span>VPN</span></h2>
+
+            </div>
+            <p class="last-paragraph pt-20 mb-0"><span>LaslesVPN</span> is a private virtual network that has
+              unique
+              features and has high security.</p>
+
+            <div class="d-flex gap-3 pb-4 pt-30">
+              <a href="https://www.facebook.com/" target="_blank"
+                class="svg-circle d-flex align-items-center justify-content-center c-p trnsition">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M14 14H16.5L17.5 10H14V8C14 6.97 14 6 16 6H17.5V2.64C17.174 2.597 15.943 2.5 14.643 2.5C11.928 2.5 10 4.157 10 7.2V10H7V14H10V22.5H14V14Z"
+                    fill="#F53838" />
+                </svg>
+              </a>
+
+              <a href="https://x.com/?lang=en" target="_blank"
+                class="svg-circle d-flex align-items-center justify-content-center c-p trnsition">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_39345_1082)">
+                    <path
+                      d="M22.1618 5.6569C21.3984 5.9946 20.5888 6.21638 19.7598 6.3149C20.6336 5.79234 21.2875 4.96992 21.5998 4.0009C20.7798 4.4889 19.8808 4.8309 18.9438 5.0159C18.3144 4.34248 17.4802 3.89587 16.5708 3.74549C15.6614 3.59511 14.7277 3.74939 13.9151 4.18436C13.1024 4.61932 12.4562 5.31059 12.0769 6.1507C11.6976 6.9908 11.6066 7.93268 11.8178 8.8299C10.1549 8.74656 8.52814 8.31443 7.0431 7.56157C5.55805 6.80871 4.24794 5.75195 3.19781 4.4599C2.8261 5.09835 2.63076 5.82413 2.63181 6.5629C2.63181 8.0129 3.36981 9.2939 4.49181 10.0439C3.82782 10.023 3.17844 9.84368 2.59781 9.5209V9.5729C2.59801 10.5386 2.93218 11.4745 3.54366 12.222C4.15513 12.9694 5.00629 13.4824 5.95281 13.6739C5.33642 13.8409 4.69012 13.8656 4.06281 13.7459C4.32968 14.5771 4.84982 15.3041 5.5504 15.825C6.25099 16.3459 7.09694 16.6347 7.96981 16.6509C7.10229 17.3322 6.10899 17.8359 5.04669 18.1331C3.98439 18.4303 2.87394 18.5152 1.77881 18.3829C3.69051 19.6123 5.9159 20.265 8.18881 20.2629C15.8818 20.2629 20.0888 13.8899 20.0888 8.3629C20.0888 8.1829 20.0838 8.0009 20.0758 7.8229C20.8947 7.23107 21.6014 6.49792 22.1628 5.6579L22.1618 5.6569Z"
+                      fill="#F53838" />
+                  </g>
+                </svg>
+              </a>
+
+              <a href="https://www.instagram.com/" target="_blank"
+                class="svg-circle d-flex align-items-center justify-content-center c-p trnsition">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 2C14.717 2 15.056 2.01 16.122 2.06C17.187 2.11 17.912 2.277 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8305 4.1779 21.224 4.78259 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.987 8.944 22 9.283 22 12C22 14.717 21.99 15.056 21.94 16.122C21.89 17.187 21.722 17.912 21.475 18.55C21.2247 19.2178 20.8311 19.8226 20.322 20.322C19.822 20.8303 19.2173 21.2238 18.55 21.475C17.913 21.722 17.187 21.89 16.122 21.94C15.056 21.987 14.717 22 12 22C9.283 22 8.944 21.99 7.878 21.94C6.813 21.89 6.088 21.722 5.45 21.475C4.78233 21.2245 4.17753 20.8309 3.678 20.322C3.16941 19.8222 2.77593 19.2175 2.525 18.55C2.277 17.913 2.11 17.187 2.06 16.122C2.013 15.056 2 14.717 2 12C2 9.283 2.01 8.944 2.06 7.878C2.11 6.812 2.277 6.088 2.525 5.45C2.77524 4.78218 3.1688 4.17732 3.678 3.678C4.17767 3.16923 4.78243 2.77573 5.45 2.525C6.088 2.277 6.812 2.11 7.878 2.06C8.944 2.013 9.283 2 12 2ZM12 7C10.6739 7 9.40215 7.52678 8.46447 8.46447C7.52678 9.40215 7 10.6739 7 12C7 13.3261 7.52678 14.5979 8.46447 15.5355C9.40215 16.4732 10.6739 17 12 17C13.3261 17 14.5979 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5979 7.52678 13.3261 7 12 7ZM18.5 6.75C18.5 6.41848 18.3683 6.10054 18.1339 5.86612C17.8995 5.6317 17.5815 5.5 17.25 5.5C16.9185 5.5 16.6005 5.6317 16.3661 5.86612C16.1317 6.10054 16 6.41848 16 6.75C16 7.08152 16.1317 7.39946 16.3661 7.63388C16.6005 7.8683 16.9185 8 17.25 8C17.5815 8 17.8995 7.8683 18.1339 7.63388C18.3683 7.39946 18.5 7.08152 18.5 6.75ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9Z"
+                    fill="#F53838" />
+                </svg>
+              </a>
+            </div>
+
+
+            <p class="lastbottom-laslesvpn mb-0">©2020Lasles <span>VPN</span></p>
+          </div>
+          <div class="col-md-8 col-12">
+            <div class="row pb-40 ">
+              <div class="col-md-4 mt-20  col-6  d-flex justify-content-lg-center">
+                <div class="blank  d-flex flex-column ">
+                  <h2 class="product mb-0">Product</h2>
+                  <a href="#download" class="links-footer mt-20 mb-0">Download</a>
+
+                  <a href="#pricing" class="links-footer mt-20 mb-0"> Pricing</a>
+
+                  <a href="#location" class="links-footer mt-20 mb-0">Locations</a>
+
+                  <a href="#server" class="links-footer mt-20 mb-0">Server</a>
+
+                  <a href="#country" class="links-footer mt-20 mb-0">Countries</a>
+
+                  <a href="#blog" class="links-footer mt-20 mb-0">Blog</a>
+
+                </div>
+              </div>
+              <div class="col-md-4 mt-20  col-6  d-flex justify-content-lg-center  ">
+                <div class="blank  d-flex  flex-column ">
+                  <h2 class="product mb-0">Engage</h2>
+                  <a href="#vpn" class="links-footer mt-20 mb-0">LaslesVPN ? </a>
+
+                  <a href="#faq" class="links-footer mt-20 mb-0"> FAQ</a>
+
+                  <a href="#tutorial" class="links-footer mt-20 mb-0">Tutorials</a>
+
+                  <a href="#about" class="links-footer mt-20 mb-0">About Us</a>
+
+                  <a href="#privacy" class="links-footer mt-20 mb-0">Privacy Policy</a>
+
+                  <a href="#" class="links-footer mt-20 mb-0">Terms of Service</a>
+
+                </div>
+              </div>
+              <div class="col-md-4 mt-20 pt-10 col-12 col-sm-6  d-flex justify-content-lg-center">
+                <div class="blank d-flex flex-column">
+                  <h2 class="product mb-0">Earn Money</h2>
+                  <a href="#" class="links-footer mt-20 mb-0">Affiliate </a>
+                  <a href="#" class="links-footer mt-20 mb-0">Become Partner</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <script src="/assets/js/app.js"></script>
+  </body>
+
+  </html>

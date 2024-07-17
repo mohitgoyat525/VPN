@@ -934,12 +934,20 @@
 }
 
 @media (max-width: 576px) {
+  .heading{
+    font-size: var(--fs-40);
+  }
   .fs-36 {
     font-size: var(--fs-36);
   }
-
+  .mt-45{
+    margin-top: 45px;
+  }
   .line-height {
     line-height: 50px;
+  }
+  .map{
+    margin-top: 2px;
   }
 
   .gap4 {
