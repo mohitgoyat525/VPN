@@ -850,6 +850,9 @@ color: var(--dark-blue);
 .cursor {
   cursor: pointer;
 }
+.slick-dots{
+  display: block !important;
+}
 /* -----------------------------responisve------------------------ */
 @media (max-width: 992px) {
   .menu-bar {
@@ -912,9 +915,7 @@ color: var(--dark-blue);
 }
 
 @media (max-width: 768px) {
-  .slick-dots {
-    display: none !important;
-  }
+  
 
   .md-justify-content-center {
     justify-content: center !important;
